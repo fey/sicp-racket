@@ -1,0 +1,8 @@
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Test exercises
+    steps:
+    - uses: fey/hexlet-sicp-action@latest
