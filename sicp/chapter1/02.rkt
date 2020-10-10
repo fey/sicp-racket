@@ -1,6 +1,5 @@
 #lang racket
 
-(require rackunit)
 (provide solution)
 
 (define solution
